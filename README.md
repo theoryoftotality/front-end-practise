@@ -42,13 +42,13 @@ front-end practise for my futre, also improve my english...
     <caption>test</caption>
      <tr><th>姓名 </th>    <th>年级</th>  <th>性别</th></tr>
       <tr>
-          <td>tch  <td>大一</td>   <td>男</td>
+          <td>tch  <td>university</td>   <td>男</td>
         </tr>
       <tr>
-          <td>ghs</td> <td>大一</td><td>男</td>
+          <td>ghs</td> <td>college</td><td>男</td>
         </tr>
       <tr>
-          <td>gdk</td><td>高二</td><td>男</td>
+          <td>gdk</td><td>senior high school</td><td>男</td>
         </tr>
   </table></div>
 
