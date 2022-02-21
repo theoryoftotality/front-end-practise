@@ -14,7 +14,7 @@ front-end practise for my futre, also improve my english...
         <li>222222</li>
         <li>11111</li>
    </ol>
-   <ul><!--无序标签，特征是开头会有·符file:///C:/Users/tuchanghua/Documents/GitHub/front-end-practise/front-end%20practise/html%20practise/test%20memory.html号，没有罗马字母-->
+   <ul><!--无序标签，特征是开头会有·符号，没有罗马字母-->
        <li>one two three four five</li>
        <li>six seven eight nine ten</li>
        <li>eleven twelve thirteen fourteen fifteen</li>
@@ -30,8 +30,8 @@ front-end practise for my futre, also improve my english...
     <dt>Javascript教程</dt>
     <dd>Javascript简称js,是一种用来开发网站（包括前端和后台）的脚本编程语言，您可以转到<a href="http://c.biancheng.net/js"target="_blank">《JS教程》</a>学习
     </dd>
-    <dt>下载文件</dt>
-    <dd>腾讯文档下载地址<a href="javascript:void(0)">腾讯文档</a></dd>
+    <dt>Download</dt>
+    <dd>Tencent Document<a href="javascript:void(0)">Tencent Document</a></dd>
   </p></div>
 
 
@@ -53,7 +53,7 @@ front-end practise for my futre, also improve my english...
   </table></div>
 
   <p><div><!--HTML图像标签 src前面一定要加img，Alt为解释作用，如果图片消失会出现文字替代-->
-      <p>猜猜我是谁？</p>
+      <p>who am i？</p>
       <!--绝对路径样例--><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp3.itc.cn%2Fimages01%2F20211003%2F0a053a0adfea491d96db3dc271375f14.jpeg&refer=http%3A%2F%2Fp3.itc.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1648028612&t=804b80e8bd28e4fd939258454b012c9d"><br>
       <img src="Pictures"alt="javascript">
       <p><img src="F:\image\QQ图片20220220141705.jpg"></p>
