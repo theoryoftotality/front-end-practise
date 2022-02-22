@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><h1>test form element</h1></div>
+    <!--1,The Form Element is be used of definition 2,Action is be used of offer information to server-->
+    <form action="baidu.com" method="post" name="name1"></form>
+    <!--action is lead to what you need software to server,the method is decision that send to server-->
+   <p><div><h2>Test input element</h2></div></p>
+    <!--The Input element is sole tag-->
+     <form action=".php" method="post" name="User information">
+         Username:<input type="text"name="username"><br/><!--In the form you can press what you need-->
+         Password:<input type="password"name="password"><br/><!--The password form that you can't see user's password-->
+         boy<input type="radio"> girl<input type="radio"><br><!--The Radio is sole tag,but can act on checkbox!-->
+         interested in:eat<input type="checkbox"> sleep<input type="checkbox">exercise<input type="checkbox"><br/>
+         <h3>Aslo!</h3>
+   boy<input type="radio"name="1">girl<input type="radio"name="1"><br>
+   <!-- You must input same name that you chose only! -->
+     Authorize<input type="radio" checked>Submit<input type="submit"value="免费注册"><br> 
+     <!-- The checked is default accept tag-->
+     Reset<input type="reset"><br>
+ <input type="button"value="获取短信验证"><br>
+ Relese image<input type="file"><br>
+ <h1>AND!!!!!!</h1>
+     <label for="boy">男<input type="radio" id="boy"name="sex"></label> 
+     <label for="girl">女<input type="radio" id="girl"name="sex"></label>
+ </label>
+</form>
+</body>
+</html>
