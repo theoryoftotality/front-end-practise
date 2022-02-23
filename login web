@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <dl>Study Hard For Your Future!!!!!
+        <dt>
+    <dd>性别 ：  <label for="man">boy<input type="radio" id="man"name="sex"></label> 
+             <label for="woman">gril<input type="radio" id="woman"name="sex"></label></dd>
+    <dd>生日：   <select><option selected="selected">--Chose your years--</option></select><select><option selected="selected">--Chose Your Months</option></select> <select><option selected="selected">--Chose Your Days--</option></select></dd>
+    <dd>所在地区：  <input type="text" name="用户所在省份" lenght="6"> </dd>   
+    <dd>学历阶段：   <label for="本科">本科<input type="radio"name="学历"id="本科"></label><label for="硕士研究生">硕士研究生<input type="radio"name="学历"id="硕士研究生"></label><label for="博士研究生">博士生<input type="radio"name="学历"id="博士研究生"></label></dd>
+    <dd>你是人吗 <input type="radio"checked="checked"></dd>
+    <dd>你的爱好：吃饭<input type="checkbox">睡觉<input type="checkbox">锻炼<input type="checkbox"></dd>
+    <dd>自我介绍<input type="textarea"></dd>
+    <dd><input type="submit"value="免费注册"></dd>
+    <dd>我同意注册条款和加入准则<input type="radio"checked="checked"></dd>
+    <dd><h1>我承认!</h1></dd>
+</dt>
+    </dl>
+    <ul>
+        <li>我是你哥哥</li>
+        <li>你是我弟弟</li>
+        <li>我们是兄弟</li>
+    </ul>
+</body>
+</html>
