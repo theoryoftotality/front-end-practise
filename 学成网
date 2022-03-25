@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学成在线首页</title>
+    <style>
+        .u1 {
+            margin-left: 352px;
+        }
+    </style>
+</head>
+<link rel="stylesheet" href="学成在线.css">
+
+<body>
+    <!-- 顶部 -->
+    <div class="top"><img src="img/logo.png" alt="#">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">课程</a></li>
+            <li><a href="#">职业规划</a></li>
+        </ul>
+        <input type="text" value="请输入文字">
+        <div><button class="serch"></button></div>
+    </div>
+    <!-- 大图标 -->
+    <div class="box">
+        <div class="banner">
+            <div class="left">
+                <ul>
+                    <li>
+                        <a href="#">前端开发</a></li>
+                    <li>
+                        <a href="#">后端开发</a></li>
+                    <li>
+                        <a href="#">移动开发</a></li>
+                    <li>
+                        <a href="#">人工智能</a></li>
+                    <li>
+                        <a href="#">商业预测</a></li>
+                    <li>
+                        <a href="#">云计算&大数据</a></li>
+                    <li>
+                        <a href="#">运维&测试</a></li>
+                    <li>
+                        <a href="#">Ui设计</a></li>
+                    <li>
+                        <a href="#">产品</a></li>
+                </ul>
+            </div>
+            <img src="img/banner.png" alt="img">
+            <div class="right">
+                <h3 class="one">我的课程表</h3>
+                <p class="two">继续学习 程序语言设计<br><span style="font-size:12px; color:#a5a5a5;">正在学习-使用对象</span></p>
+                <p class="two">继续学习 程序语言设计<br><span style="font-size:12px; color:#a5a5a5;">正在学习-使用对象</span></p>
+                <p class="two">继续学习 程序语言设计<br><span style="font-size:12px; color:#a5a5a5;">正在学习-使用对象</span></p>
+                <a href="#">全部课程</a>
+            </div>
+        </div>
+    </div>
+    <div class="topic1">
+        <ul>
+            <li class="l1">精品推荐</li>
+            <li class="gun">|</li>
+            <li><a href="#" class="speical1">JQuery</a></li>
+            <li class="gun">|</li>
+            <li><a href="#" class="speical1">Spark</a></li>
+            <li class="gun">|</li>
+            <li><a href="#" class="speical1">Mysql</a></li>
+            <li class="gun">|</li>
+            <li><a href="#" class="speical1">JavaWeb</a></li>
+            <li class="gun">|</li>
+            <li><a href="#" class="speical1">JAVA</a></li>
+            <li class="gun">|</li>
+            <li><a href="#" class="speical1">PHP</a></li>
+        </ul>
+        <a href="#" class="only">修改兴趣</a>
+    </div>
+    <div class="topic2">
+        <div class="onleft">精品推荐</div>
+        <div class="onright"><a href="#">查看全部</a></div>
+    </div>
+    <!-- 精品推荐 -->
+    <div class="pichaku">
+        <!-- 思路是以<ul>为整体,接着<li>设置宽高,再以<a>标签为小盒子,在内部载入图片,并且用文字修饰 -->
+        <ul class="pikachu">
+            <li class="picture">
+                <a href="#"><img src="img/tu1.png" class="xiushi" alt="#">
+                    <div class="tu">
+                        <div class="tu2">Think PHP 5.0 博客系统实战项目练习</div>
+                        <p class="tu3 all">高级<span class="tu4">·114514人在学习</span></p>
+                    </div>
+                </a>
+            </li>
+            <li class="picture">
+                <a href="#"><img src="img/tu2.png" class="xiushi" alt="#">
+                    <div>
+                        <div class="tu2">Android 网络图片加载框架详解</div>
+                        <p class="tu3 all">高级<span class="tu4">·114514人在学习</span></p>
+                    </div>
+                </a>
+            </li>
+            <li class="picture">
+                <a href="#"><img src="img/tu3.png" class="xiushi" alt="#">
+                    <div>
+                        <div class="tu2">Angular 2 最新框架+主流技术+项目实战</div>
+                        <p class="tu3 all">高级<span class="tu4">·114514人在学习</span></p>
+                    </div>
+                </a>
+            </li>
+            <li class="picture">
+                <a href="#"><img src="img/tu4.png" class="xiushi" alt="#">
+                    <div>
+                        <div class="tu2">Android Hybrid APP开发实战 H5+原生</div>
+                        <p class="tu3 all">高级<span class="tu4">·114514人在学习</span></p>
+                    </div>
+                </a>
+            </li>
+            <li class="picture last">
+                <a href="#"><img src="img/tu4.png" class="xiushi" alt="#"></a>
+                <div class>
+                    <div class="tu2">Android Hybrid APP开发实战 H5+原生</div>
+                    <p class="tu3 all">高级<span class="tu4">·114514人在学习</span></p>
+                </div>
+            </li>
+            <li class="picture">
+                <a href="#"><img src="img/tu1.png" class="xiushi" alt="#">
+                    <div class="tu">
+                        <div class="tu2">Think PHP 5.0 博客系统实战项目练习</div>
+                        <p class="tu3 all">高级<span class="tu4">·114514人在学习</span></p>
+                    </div>
+                </a>
+            </li>
+            <li class="picture">
+                <a href="#"><img src="img/tu2.png" class="xiushi" alt="#">
+                    <div>
+                        <div class="tu2">Android 网络图片加载框架详解</div>
+                        <p class="tu3 all">高级<span class="tu4">·114514人在学习</span></p>
+                    </div>
+                </a>
+            </li>
+            <li class="picture">
+                <a href="#"><img src="img/tu3.png" class="xiushi" alt="#">
+                    <div>
+                        <div class="tu2">Angular 2 最新框架+主流技术+项目实战</div>
+                        <p class="tu3 all">高级<span class="tu4">·114514人在学习</span></p>
+                    </div>
+                </a>
+            </li>
+            <li class="picture g2">
+                <a href="#"><img src="img/tu4.png" class="xiushi" alt="#"></a>
+                <div class>
+                    <div class="tu2">Android Hybrid APP开发实战 H5+原生</div>
+                    <p class="tu3 all">高级<span class="tu4">·114514人在学习</span></p>
+                </div>
+            </li>
+            <li class="picture g2">
+                <a href="#"><img src="img/tu4.png" class="xiushi" alt="#"></a>
+                <div class>
+                    <div class="tu2">Android Hybrid APP开发实战 H5+原生</div>
+                    <p class="tu3 all">高级<span class="tu4">·114514人在学习</span></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- 编程入门 -->
+    <div class="topic3">
+        <div class="left1">
+            编程入门
+        </div>
+        <div class="content1">
+            <ul class="u1">
+                <li class="g1"><a href="#">热门</a></li>
+                <li class="g1 g3"><a href="#">初级</a></li>
+                <li class="g1 g3"><a href="#">中级</a></li>
+                <li class="g1 g3"><a href="#">高级</a></li>
+            </ul>
+        </div>
+
+        <div class="right2"><a href="#">查看全部</a></div>
+    </div>
+
+    <div class="box2">
+        <div class="left3"></div>
+        <div class="right3">
+            <div class="topbox"></div>
+            <ul>
+                <li class="c1 b1">
+                    <div>
+                        <a href="#"><img src="img/shuju3.png" class="use" alt="#">
+                            <div class="use2">Kami2首页界面切换效果</div>
+                            <p class="use3">高级<span class="use4">·114514人在学习</span></p>
+                        </a>
+                    </div>
+                </li>
+                <li class="c1 b1">
+                    <div>
+                        <a href="#"><img src="img/shuju4.png" class="use" alt="#">
+                            <div class="use2">Android Hybrid APP开发实战+原生！</div>
+                            <p class="use3">高级<span class="use4">·114514人在学习</span></p>
+                        </a>
+                    </div>
+                </li>
+                <li class="c1 b1">
+                    <div>
+                        <a href="#"><img src="img/shuju5.png" class="use" alt="#">
+                            <div class="use2">Cocos2d-x 引擎源码中的纹理优化</div>
+                            <p class="use3">高级<span class="use4">·114514人在学习</span></p>
+                        </a>
+                    </div>
+                </li>
+                <li class="c1 b2">
+                    <div>
+                        <a href="#"><img src="img/shuju6.png" class="use" alt="#">
+                            <div class="use2">Unity Profiler入门</div>
+                            <p class="use3">高级<span class="use4">·114514人在学习</span></p>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 数据分析师 -->
+    <div class="topic4">
+        <h4>数据分析师</h4>
+        <ul style="margin-left:352px;">
+            <li class="li4"><a href="#">热门</a></li>
+            <li class="li4"><a href="#">初级</a></li>
+            <li class="li4"><a href="#">中级</a></li>
+            <li class="li4"><a href="#">高级</a></li>
+        </ul>
+        <a href="#" class="right3">查看全部</a>
+    </div>
+    <div class="guodu"></div>
+    <div class="box3">
+        <div class="leftbox"></div>
+        <div class="right4">
+            <div class="boxtop2"></div>
+            <div class="under">
+                <ul class="u2">
+                    <li class="sj">
+                        <div class="shuju">
+                            <a href="#">
+                                <img src="img/shuju3.png" class="wd" alt="#">
+                                <div class="sj2">Kami2首页界面切换效果</div>
+                                <p class="sj3">高级<span class="sj4">·114514人在学习</span></p>
+                            </a>
+
+                        </div>
+                    </li>
+                    <li class="sj">
+                        <div class="shuju">
+                            <a href="#">
+                                <img src="img/shuju4.png" class="wd" alt="#">
+                                <div class="sj2">Android Hybrid APP开发实战+原生！</div>
+                                <p class="sj3">高级<span class="sj4">·114514人在学习</span></p>
+                            </a>
+
+                        </div>
+                    </li>
+                    <li class="sj">
+                        <div class="shuju">
+                            <a href="#">
+                                <img src="img/shuju5.png" class="wd" alt="#">
+                                <div class="sj2">Cocos2d-x 引擎源码中的纹理优化</div>
+                                <p class="sj3">高级<span class="sj4">·114514人在学习</span></p>
+                            </a>
+
+                        </div>
+                    </li>
+                    <li class="sj">
+                        <div class="shuju last">
+                            <a href="#">
+                                <img src="img/shuju6.png" class="wd" alt="#">
+                                <div class="sj2">Unity Profiler入门</div>
+                                <p class="sj3">高级<span class="sj4">·114514人在学习</span></p>
+                            </a>
+
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 机械学习工程师 -->
+    <div class="topic5">
+        <h4 class="txxt">机械学习工程师</h4>
+        <ul class="txt">
+            <li class="daitou">
+                <a href="#">热门</a>
+            </li>
+            <li>
+                <a href="#">初级</a>
+            </li>
+            <li>
+                <a href="#">中级</a>
+            </li>
+            <li>
+                <a href="#">高级</a>
+            </li>
+        </ul>
+        <a href="#">查看全部</a>
+    </div>
+    <div class="guodu2"></div>
+
+    <div class="box4">
+        <ul class="x1">
+
+            <li class="v1 rgv">
+
+                <a href="#"><img src="img/shuju3.png" class="fag1" alt="#">
+                    <div class="sfg">Kami2首页界面切换效果</div>
+                    <p class="bxc">高级<span class="cbn">·114514人在学习</span></p>
+                </a>
+
+            </li>
+            <li class="v1 ">
+
+                <a href="#"><img src="img/shuju4.png" class="fag1" alt="#">
+                    <div class="sfg">Android Hybrid APP开发实战 H5+原生!</div>
+                    <p class="bxc">高级<span class="cbn">·114514人在学习</span></p>
+                </a>
+
+            </li>
+            <li class="v1 ">
+
+                <a href="#"><img src="img/shuju5.png" class="fag1" alt="#">
+                    <div class="sfg">Cocos2d-x 引擎源码中的纹理优化</div>
+                    <p class="bxc">高级<span class="cbn">·114514人在学习</span></p>
+                </a>
+            </li>
+            <li class="v1 ">
+
+                <a href="#"><img src="img/shuju6.png" class="fag1" alt="#">
+                    <div class="sfg">Unity Profiler入门</div>
+                    <p class="bxc">高级<span class="cbn">·114514人在学习</span></p>
+                </a>
+
+            </li>
+            <li class="v1 ">
+
+                <a href="#"><img src="img/shuju6.png" class="fag1" alt="#">
+                    <div class="sfg">Unity Profiler入门</div>
+                    <p class="bxc">高级<span class="cbn">·114514人在学习</span></p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="topicl">
+        <h4 class="sgbn">前端开发设计师</h4>
+        <ul style="margin-left:357px">
+            <li class="jbva">
+                <a href="#">热门</a>
+            </li>
+            <li class="jbva">
+                <a href="#">初级</a>
+            </li>
+            <li class="jbva">
+                <a href="#">中级</a>
+            </li>
+            <li class="jbva">
+                <a href="#">高级</a>
+            </li>
+        </ul>
+        <a href="#">查看全部</a>
+    </div>
+    <div class="eventual">
+        <ul class="event">
+            <li class="utter">
+                <a href="#"><img src="img/shuju3.png" class="bbf" alt="#">
+                    <div class="dynamic">Kami2首页界面切换效果</div>
+                    <p class="gbhf">高级<span class="bcsb">·114514人在学习</span></p>
+                </a>
+            </li>
+            <li class="utter">
+                <a href="#"><img src="img/shuju4.png" class="bbf" alt="#">
+                    <div class="dynamic">Android Hybrid APP开发实战 H5+原生!</div>
+                    <p class="gbhf">高级<span class="bcsb">·114514人在学习</span></p>
+                </a>
+            </li>
+            <li class="utter">
+                <a href="#"><img src="img/shuju5.png" class="bbf" alt="#">
+                    <div class="dynamic">Cocos2d-x 引擎源码中的纹理优化</div>
+                    <p class="gbhf">高级<span class="bcsb">·114514人在学习</span></p>
+                </a>
+            </li>
+            <li class="utter">
+                <a href="#"><img src="img/shuju6.png" class="bbf" alt="#">
+                    <div class="dynamic">Unity Profiler入门</div>
+                    <p class="gbhf">高级<span class="bcsb">·114514人在学习</span></p>
+                </a>
+            </li>
+            <li class="utter">
+                <a href="#"><img src="img/shuju6.png" class="bbf" alt="#">
+                    <div class="dynamic">Unity Profiler入门</div>
+                    <p class="gbhf">高级<span class="bcsb">·114514人在学习</span></p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <div class="dibu">
+            <div class="footleft">
+                <img src="img/logo.png" alt="#">
+                <p class="fot">学成在线致力于普及中国最好的教育它与中国一流大学和机构合作提供在线课程。 © 2017年XTCG Inc.保留所有权利。-沪ICP备15025210号</p>
+                <a href="#">下载APP</a>
+            </div>
+            <div class="boxright">
+                <ul class="fote">
+                    <li> <a href="#" style="font-size:16px;"> 关于学成网</a> </li>
+                    <li class="gbfnb"><a href="#">关于</a> </li>
+                    <li class="bf"><a href="#">管理团队</a> </li>
+                    <li class="bf"><a href="#">工作机会</a> </li>
+                    <li class="bf"><a href="#">客户服务</a> </li>
+                    <li class="bf"><a href="#">帮助</a> </li>
+                </ul>
+                <ul class="fote">
+                    <li> <a href="#" style="font-size:16px;"> 新手指南</a> </li>
+                    <li class="gbfnb"><a href="#">如何注册</a> </li>
+                    <li class="bf"><a href="#">如何选课</a> </li>
+                    <li class="bf"><a href="#">如何拿到毕业证</a> </li>
+                    <li class="bf"><a href="#">学分是什么</a> </li>
+                    <li class="bf"><a href="#">考试未通过怎么办</a> </li>
+                </ul>
+                <ul class="fote">
+                    <li> <a href="#" style="font-size:16px;"> 合作伙伴</a> </li>
+                    <li class="gbfnb"><a href="#">合作机构</a> </li>
+                    <li class="bf"><a href="#">合作导师</a> </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
