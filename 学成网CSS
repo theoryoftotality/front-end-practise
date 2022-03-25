@@ -1,0 +1,799 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: #F3F5F7;
+    }
+    
+    .top {
+        width: 1226px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    
+    .top img {
+        float: left;
+        width: 195px;
+        height: 42px;
+        margin-right: 94px;
+        margin-top: 20px;
+    }
+    
+    .top li {
+        display: block;
+        float: left;
+        width: 73px;
+        height: 73px;
+        line-height: 73px;
+        list-style: none;
+    }
+    
+    .top a {
+        width: 73px;
+        height: 24px;
+        font-size: 18px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        text-decoration: underline;
+        padding-top: 2px;
+    }
+    
+    input {
+        display: block;
+        float: left;
+        border: 1px solid skyblue;
+        width: 360px;
+        height: 34px;
+        position: center;
+        margin-left: 94px;
+        margin-top: 20px;
+        padding-left: 16px;
+        outline: none;
+    }
+    
+    .serch {
+        width: 50px;
+        height: 36px;
+        background-image: url(img/QQ图片20220322225117.png);
+        margin-top: 20px;
+    }
+    
+    .box {
+        width: 100%;
+        height: 425px;
+        background-color: #1c036c;
+    }
+    
+    .banner {
+        width: 1354px;
+        height: 425px;
+        margin: 0 auto;
+    }
+    
+    .banner>img {
+        width: 846px;
+        height: 100%;
+        left: 160px;
+    }
+    
+    .clearfix:after {
+        content: "";
+        display: block;
+        height: 0px;
+        clear: both;
+        visibility: hidden;
+    }
+    
+    .clearfix {
+        zoom: 1;
+    }
+    
+    .left {
+        float: left;
+        background-color: #13014B;
+        width: 190px;
+        height: 100%;
+    }
+    
+    .left li {
+        display: block;
+        margin: 0;
+        list-style: none;
+        width: 120px;
+        height: 49px;
+        color: white;
+        font-size: 14px;
+    }
+    
+    .left a {
+        width: 96px;
+        height: 14px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        padding-left: 20px;
+    }
+    
+    .left a:hover {
+        color: skyblue;
+        text-decoration: none;
+    }
+    
+    .right {
+        float: right;
+        margin-top: 40px;
+        margin-right: 80px;
+        width: 230px;
+        height: 300px;
+        box-sizing: border-box;
+        background-color: #fff;
+    }
+    
+    .one {
+        width: 100%;
+        height: 50px;
+        background-color: skyblue;
+        line-height: 50px;
+        color: white;
+        text-align: center;
+    }
+    
+    .right>p {
+        padding-left: 19px;
+        margin-top: 19px;
+        width: 210px;
+        height: 50px;
+        border-bottom: 1px solid gray;
+    }
+    
+    .right>.two {
+        border-bottom: 1px solid #efefef;
+    }
+    
+    .right>a {
+        display: block;
+        text-decoration: none;
+        height: 28px;
+        width: 200px;
+        color: #22b0ff;
+        background-color: #FFF;
+        text-align: center;
+        border: 1px solid #22b0ff;
+        margin-left: 15px;
+        margin-top: 1px;
+        padding-top: 8px;
+    }
+    
+    .topic1 {
+        margin: 0 auto;
+        margin-top: 9px;
+        width: 1220px;
+        height: 60px;
+        border: 1px solid #FFF;
+        box-shadow: 1px 1px 9px 1px rgba(0, 0, 0, .3);
+    }
+    
+    .topic1>ul {
+        float: left;
+        display: block;
+        width: 785.34px;
+        height: 60px;
+    }
+    
+    .topic1 ul li {
+        display: list-item;
+        float: left;
+        list-style: none;
+        height: 60px;
+        line-height: 60px;
+        margin-left: 32px;
+    }
+    
+    .l1 {
+        color: #22b0ff;
+    }
+    
+    .topic1 li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .speical1:hover {
+        color: #22b0ff;
+    }
+    
+    .gun {
+        margin-left: 34px;
+    }
+    
+    .only {
+        float: right;
+        height: 60px;
+        display: block;
+        line-height: 60px;
+        color: #22b0ff;
+        margin-right: 28px;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    
+    .topic2 {
+        width: 1226px;
+        height: 60px;
+        margin: 0 auto;
+        margin-top: 33px;
+    }
+    
+    .onleft {
+        float: left;
+        font-size: 1.5em;
+        color: #494949;
+    }
+    
+    .onright a {
+        display: block;
+        float: right;
+        font-size: 12px;
+        color: #A5A5A5;
+        text-decoration: none;
+    }
+    
+    .pikachu {
+        width: 1226px;
+        height: 557px;
+        margin: 0 auto;
+    }
+    
+    .picture {
+        display: block;
+        float: left;
+        list-style: none;
+        width: 230px;
+        height: 271px;
+        box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, .3);
+        background-color: white;
+        margin-right: 13px;
+        margin-bottom: 16px;
+    }
+    
+    .picture a:hover {
+        text-decoration: none;
+    }
+    
+    .last {
+        margin-right: 0px;
+    }
+    
+    .picture>a {
+        text-decoration: none;
+    }
+    
+    .tu2 {
+        text-decoration: none;
+        color: black;
+        margin: 25px 0px 0px 24px;
+    }
+    
+    .tu3 {
+        color: orange;
+        font-size: 12px;
+    }
+    
+    .tu4 {
+        color: #9999;
+    }
+    
+    .all {
+        margin: 20px 0px 0px 25px;
+    }
+    
+    .g2 {
+        margin-bottom: 0px;
+    }
+    
+    .xiushi {
+        width: 100%;
+    }
+    
+    .topic3 {
+        width: 1226px;
+        height: 60px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    .left1 {
+        float: left;
+        font-size: 1.5em;
+        color: #494949;
+    }
+    
+    .g1 {
+        float: left;
+        width: 33px;
+        height: 16px;
+        list-style: none;
+        margin: 10px 0px 0px 70px;
+    }
+    
+    .g1>a {
+        display: block;
+        text-decoration: none;
+        line-height: 14px;
+        color: black;
+    }
+    
+    .g1 a:hover {
+        color: skyblue;
+        text-decoration: none;
+        margin: 0px;
+    }
+    
+    .right2>a {
+        float: right;
+        font-size: 12px;
+        color: #A5A5A5;
+        text-decoration: none;
+    }
+    
+    .box2 {
+        width: 1226px;
+        height: 392px;
+        margin: 0 auto;
+    }
+    
+    .left3 {
+        float: left;
+        width: 230px;
+        height: 392px;
+        background: url(img/biancheng1.png) no-repeat;
+    }
+    
+    ul>.c1 {
+        float: left;
+        display: block;
+        list-style: none;
+        width: 230px;
+        height: 270px;
+        margin-left: 12px;
+        border: 1px solid #efefef;
+        box-shadow: 7px 2.5px 10px 1px rgb(0 0 0 / 30%);
+        margin-top: 20px;
+    }
+    
+    ul .c1 a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .topbox {
+        float: left;
+        background: url(img/biancheng2.png) no-repeat;
+        margin-left: 16px;
+        width: 967px;
+        height: 100px;
+    }
+    
+    .use {
+        width: 100%;
+    }
+    
+    .use2 {
+        margin: 25px 0px 0px 24px;
+        font-size: 14px;
+        width: 186px;
+        height: 33px;
+    }
+    
+    .use3 {
+        font-size: 12px;
+        color: #999999;
+        margin: 25px 0px 0px 24px;
+    }
+    
+    .use4 {
+        color: orange;
+    }
+    
+    .topic4 {
+        width: 1226px;
+        height: 60px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    .topic4>a {
+        float: right;
+    }
+    
+    h4 {
+        float: left;
+        font-size: 1.5em;
+        color: #494949;
+    }
+    
+    ul>.li4 {
+        display: block;
+        float: left;
+        line-height: 30px;
+    }
+    
+    .li4>a {
+        float: left;
+        text-decoration: none;
+        color: black;
+        margin-left: 70px;
+    }
+    
+    .li4>a:hover {
+        text-decoration: none;
+        color: skyblue;
+    }
+    
+    .right3 {
+        float: right;
+        font-size: 12px;
+        color: #A5A5A5;
+        text-decoration: none;
+    }
+    
+    .right3 :hover {
+        text-decoration: none;
+    }
+    
+    .guodu {
+        width: 1226px;
+    }
+    
+    .box3 {
+        width: 1226px;
+        height: 392px;
+        margin: 0 auto;
+    }
+    
+    .leftbox {
+        float: left;
+        width: 230px;
+        height: 392px;
+        background: url("img/shuju1.png");
+    }
+    
+    .right4 {
+        float: right;
+        height: 996px;
+        height: 392px;
+    }
+    
+    .boxtop2 {
+        width: 967px;
+        height: 100px;
+        background: url("img/shuju2.png");
+        margin-left: 16px;
+    }
+    
+    .u2>li {
+        list-style: none;
+        float: left;
+        margin-left: 11px;
+        margin-top: 16px;
+        border: 1px solid #efefef;
+        box-shadow: 7px 2.5px 10px 1px rgb(0 0 0 / 30%);
+    }
+    
+    .sj>a {
+        display: block;
+    }
+    
+    .shuju {
+        width: 233px;
+        height: 273px;
+    }
+    
+    .shuju>a {
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .wd {
+        width: 100%;
+    }
+    
+    .shuju>a:hover {
+        text-decoration: none;
+    }
+    
+    .sj2 {
+        font-size: 14px;
+        width: 181px;
+        height: 25px;
+        margin: 32px 0 0 25px;
+    }
+    
+    .sj3 {
+        font-size: 12px;
+        color: #9999;
+        margin-top: 26px;
+        margin-left: 24px;
+    }
+    
+    .sj4 {
+        color: orange;
+    }
+    
+    .last {
+        margin-left: 0px;
+        padding: 0px
+    }
+    
+    .topic5 {
+        width: 1226px;
+        height: 60px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    .txxt {
+        float: left;
+        color: #393939;
+    }
+    
+    .txt {
+        margin-left: 352px;
+    }
+    
+    .txt li {
+        float: left;
+        list-style: none;
+        margin-left: 72px;
+    }
+    
+    .txt li a {
+        text-decoration: none;
+        color: black;
+        line-height: 30px;
+    }
+    
+    .txt>a:hover {
+        text-decoration: none;
+    }
+    
+    .guodu2 {
+        width: 1226px;
+        margin: 0 auto;
+    }
+    
+    .topic5>a {
+        font-size: 12px;
+        color: #9999;
+        float: right;
+        text-decoration: none;
+    }
+    
+    .topic>a:hover {
+        text-decoration: none;
+    }
+    
+    .box4 {
+        width: 1226px;
+        height: 296px;
+        margin: 0 auto;
+    }
+    
+    .box4>ul {
+        width: 1226px;
+        height: 271px;
+        margin: 0 auto;
+    }
+    
+    .v1 {
+        list-style: none;
+        float: left;
+        width: 230px;
+        height: 271px;
+        margin-left: 14px;
+        margin-top: 21px;
+        box-shadow: 1px 1px 9px 1px rgba(0, 0, 0, .3);
+    }
+    
+    .v1>a {
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .v1>a:hover {
+        text-decoration: none;
+    }
+    
+    .sfg {
+        font-size: 14px;
+        width: 181px;
+        height: 25px;
+        margin: 32px 0 0 25px;
+    }
+    
+    .bxc {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 25px;
+        color: #9999;
+    }
+    
+    .fag1 {
+        width: 100%;
+    }
+    
+    .cbn {
+        color: orange;
+    }
+    
+    .topicl {
+        width: 1226px;
+        height: 60px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    .sgbn {
+        float: left;
+    }
+    
+    .jbva {
+        list-style: none;
+    }
+    
+    .jbva>a {
+        display: block;
+        float: left;
+        text-decoration: none;
+        color: black;
+        margin-left: 72px;
+    }
+    
+    .jbva>a:hover {
+        text-decoration: none;
+    }
+    
+    .topicl>a {
+        float: right;
+        font-size: 12px;
+        color: #A5A5A5;
+        text-decoration: none;
+    }
+    
+    .topicl>a:hover {
+        text-decoration: none;
+    }
+    
+    .eventual {
+        width: 1352px;
+        height: 292px;
+        margin: 0 auto;
+    }
+    
+    .eventual {
+        width: 1226px;
+        height: 292px;
+        margin: 0 auto;
+    }
+    
+    .utter {
+        float: left;
+        width: 229.2px;
+        height: 271px;
+        list-style: none;
+        margin-left: 16px;
+        box-shadow: 1px 1px 9px 1px rgba(0, 0, 0, .3);
+    }
+    
+    .utter>a {
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .utter>a:hover {
+        text-decoration: none;
+    }
+    
+    .dynamic {
+        width: 180px;
+        height: 32px;
+        margin: 25px 0 0 20px;
+    }
+    
+    .bbf {
+        width: 100%;
+    }
+    
+    .gbhf {
+        margin: 25px 0 0 20px;
+        font-size: 12px;
+        color: #9999;
+    }
+    
+    .bcsb {
+        color: orange;
+    }
+    
+    .footer {
+        margin-top: 30px;
+        width: 100%;
+        height: 30px;
+        color: #FFFF;
+    }
+    
+    footer {
+        margin-top: 40px;
+        width: 100%;
+        background-color: #fff;
+    }
+    
+    .dibu {
+        margin-top: 40px;
+        width: 1226px;
+        height: 270px;
+        margin: 0 auto;
+    }
+    
+    .footleft {
+        width: 430px;
+        float: left;
+        margin-top: 30px;
+    }
+    
+    .fot {
+        margin-top: 8px;
+        font-size: 12px;
+        color: #6666;
+    }
+    
+    .footleft>a {
+        display: block;
+        width: 120px;
+        height: 40px;
+        text-decoration: none;
+        margin-top: 20px;
+        border: 1px solid #00a4ff;
+        text-align: center;
+        color: black;
+        line-height: 40px;
+    }
+    
+    .boxright {
+        float: left;
+    }
+    
+    .fote {
+        float: left;
+        margin-left: 150px;
+        margin-top: 30px;
+    }
+    
+    .fote>li {
+        list-style: none;
+    }
+    
+    .gbfnb {
+        margin-top: 22px;
+    }
+    
+    li>a {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    
+    li>a:hover {
+        text-decoration: none;
+    }
+    
+    .bf {
+        margin-top: 4px;
+    }
